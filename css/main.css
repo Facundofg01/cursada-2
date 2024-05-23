@@ -1,0 +1,55 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+
+--yale-blue: #1b4079ff;
+--air-force-blue: #4d7c8aff;
+--cambridge-blue: #7f9c96ff;
+--cambridge-blue-2: #8fad88ff;
+--mindaro: #cbdf90ff;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: var(--mindaro);
+    font-family: "Bebas Neue", sans-serif;
+}
+
+#main-header{
+    background-color: var(--cambridge-blue);
+    display: flex;
+    align-items: center;
+    height: 13vh;
+    padding: 1rem 2 rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+
+}
+#main-header picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main-header picture img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vh;
+    
+}
+#main-header nav{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
