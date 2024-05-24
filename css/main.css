@@ -18,16 +18,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: var(--mindaro);
+    background-color: var(--yale-blue);
     font-family: "Bebas Neue", sans-serif;
 }
-
 #main-header{
-    background-color: var(--cambridge-blue);
+    background-color: var(--air-force-blue);
     display: flex;
     align-items: center;
-    height: 13vh;
-    padding: 1rem 2 rem;
+    height: 12vh;
     position: fixed;
     top: 0;
     left: 0;
@@ -36,20 +34,36 @@ body{
 }
 #main-header picture{
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
 #main-header picture img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 20vh;
-    
+    height: 18vh;
+    padding: 3px 2px;
+
 }
 #main-header nav{
     flex: 1;
     display: flex;
     justify-content: flex-end;
-    gap: 1rem;
+    padding-right: 2rem;
+    gap: 1vh;
+    
+}
+#main-header nav a{
+    color:var(--mindaro)
+}
+#main-header form{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 3rem;
+}
+#main-header form button{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    height: 7vh;
+}
+#main-header form button img{
+    height: 100%;
+    object-fit: cover;
 }
